@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de la Calculadora</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Resultado de la Calculadora de Amor</h1>
+    <p>Queridos {{ nombre1 }} y {{ nombre2 }},</p>
+    <p>La calculadora de amor ha hablado:</p>
+    <p>{{ nombre1 }} y {{ nombre2 }} tienen un {{ porcentaje_amor }}% de compatibilidad amorosa.</p>
+    <p>¡Que viva el amor! ❤️</p>
+    <p><a href="/">Volver a la calculadora</a></p>
+</body>
+</html>

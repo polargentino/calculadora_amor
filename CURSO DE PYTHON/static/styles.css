@@ -1,0 +1,62 @@
+body {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    text-align: center;
+    background-color: #df95b7;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.gifer.com/7Atw.gif'); /* Reemplaza con tu imagen de fondo animado */
+    background-size: cover;
+    background-position: center;
+    animation: scrollBackground 40s linear infinite;
+}
+/* Agrega una animación para desplazar el fondo */
+@keyframes scrollBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+/* Estilos adicionales... */
+
+h1 {
+    color: #8b0000; /* Dark red */
+}
+
+form {
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f10928;
+    color: #fff;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #fd0000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+label {
+    display: block; /* Hace que cada label ocupe una línea completa */
+    margin-bottom: 10px; /* Agrega un espacio en la parte inferior para separar etiquetas */
+    font-size: 18px; /* Tamaño de la fuente */
+    color: #df1a1a; /* Color del texto */
+}
